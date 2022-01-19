@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #222222;
+}
+header{
+    height: 45px;
+    width: 100%;
+    background: #222222;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    position: fixed;
+    justify-content: center;
+    z-index: 10;
+
+}
+header .logo{
+   margin: 7px 34px;
+   font-size: 25px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header span{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+header i{
+    color: goldenrod;
+}
+header ul{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin: 3px;
+    list-style: none;
+    margin-top: -35px;
+    margin-right: 20px;
+
+}
+header ul li{
+    padding: 2px 8px;
+    font-size:15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    border-radius: 25px;
+    color: white;
+}
+header ul #about{
+    
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+    color: #222222;
+}
+header ul li:hover{
+    
+    background: linear-gradient(315deg, #ffffff, #d7e1ec);
+    color: #222222;
+}
+.cont{
+    height: 700px;
+    width: 950px;
+    margin: 0 25px;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    display: inline-block;
+    margin-top: 53px;
+    overflow: hidden;
+    position: fixed;
+}
+.content{
+    width: 500px;
+    height: 55%;
+    margin-top: 120px;
+    margin-left: 35px;
+
+}
+.content span{
+    color: goldenrod;
+    font-size: 44px;
+    font-family: 'Poppins', sans-serif;
+}
+.content h1{
+    color: white;
+    font-size: 44px;
+    font-family: 'Poppins', sans-serif;
+}
+.content h2{
+    color: white;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.content p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.content .small_logos{
+    width: 210px;
+    height: 70px;
+    position: relative;
+    display: inline-flex;
+    margin-top: -11px;
+    
+    
+}
+.content .small_logos i{
+    color: white;
+    font-size: 22px;
+}
+.small_logos .icon{
+    margin: 3px 10px;
+    margin-top: -20px;
+    margin-right: 21px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    cursor: pointer;
+}
+.small_logos .icon span{
+    display: block;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.small_logos .icon span i{
+    color: #222222;
+    line-height: 40px;
+    font-size: 27px;
+    cursor: pointer;
+
+}
+.small_logos .icon .tooltip{
+    background: #fff;
+    font-size: 15px;
+    padding: 4px 7px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    top: 70px;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68,-0.55,0.265,1.55);
+   
+
+}
+.small_logos .icon .tooltip a{
+    color: #222222;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+.small_logos .icon:hover .tooltip{
+    top: 66px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.small_logos .facebook:hover span,
+.small_logos .facebook:hover .tooltip{
+    background: #3B5999;
+}
+.small_logos .twitter:hover span,
+.small_logos .twitter:hover .tooltip{
+    background: #46c1f6;
+}
+.small_logos .github:hover span,
+.small_logos .github:hover .tooltip{
+    background: #333;
+}
+.small_logos .icon:hover .tooltip a{
+    color: #fff;
+}
+.img{
+    height: 355px;
+    width: 355px;
+    border-radius: 50%;
+    float: right;
+    display: flex;
+    opacity: 0.03;
+    background: white;
+    margin-top: -375px;
+    margin-right: 65px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    position: relative;
+    z-index: -1;
+}
+img{
+    width: 325px;
+    float: right;
+    margin-top: -360px;
+    margin-right: 80px;
+}
